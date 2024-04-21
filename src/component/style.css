@@ -1,0 +1,33 @@
+.divClient {
+    margin-right: 4.7%;
+    margin-top: 3%;
+
+}
+
+.divComment {
+    margin-right: 4.7%;
+    margin-top: 3%;
+}
+.mainDiv {
+display: flex;
+flex-wrap: wrap;
+}
+
+.divAdd{
+    border:solid,1px,'#e4a8a8';
+    margin-top: 10vw;
+}
+.divFruit{
+width: 21%;
+margin-top: 9%;
+margin-left: 36%;
+}
+.listGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+.itemGrid{
+    padding: 10px;
+  text-align: center;
+  }

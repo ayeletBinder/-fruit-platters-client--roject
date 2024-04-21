@@ -1,0 +1,12 @@
+.image-container {
+    display: flex; /* Make the container a flexbox */
+    flex-wrap: nowrap; /* Wrap images to multiple lines if needed */
+    /* width: 100%; Take full width of the container */
+    /* margin: 0 auto; Center the container horizontally */
+  }
+  
+  .image-container img {
+    flex: 1  ; /* Flexible sizing for each image */
+    /* margin: 5px; Add spacing between images */
+    object-fit: cover; /* Ensure images fill their space */
+  }
